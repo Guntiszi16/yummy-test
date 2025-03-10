@@ -1,0 +1,46 @@
+.home_pic {
+  display: flex;
+  height: 42rem;
+  width: 100%;
+  background-image: url("../assets/food.jpeg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.176);
+}
+
+.home_pic h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+.home_content {
+  margin: 4rem 15%;
+  text-align: center;
+}
+
+.home_content h2 {
+  margin-top: 0;
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+
+.home_content p {
+  padding: 0rem 0rem;
+  padding-bottom: 3rem;
+  font-size: 1.3rem;
+}
+
+.round_pic_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.round_pic {
+  border-radius: 100px;
+  height: 10rem;
+  width: 10rem;
+}

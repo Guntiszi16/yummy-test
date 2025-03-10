@@ -1,0 +1,34 @@
+.favorite_item_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.item_content_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_content {
+  font-size: 1.5rem;
+  width: 22rem;
+  text-align: center;
+}
+
+.item_name {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.item_content span {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.favorite_item_container img {
+  width: 180px;
+  height: 180px;
+  border: 1px solid rgba(0, 0, 0, 0.522);
+}

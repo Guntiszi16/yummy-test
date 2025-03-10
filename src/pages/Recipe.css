@@ -1,0 +1,22 @@
+.user_search {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.recipe_list_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem 1rem;
+}
+
+.no_results {
+  position: relative;
+  left: 100%;
+  text-align: center;
+}
+
+.no_results p {
+  width: 100%;
+  font-size: 4rem;
+  font-weight: 400;
+}

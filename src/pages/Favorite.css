@@ -1,0 +1,12 @@
+.favorite_container h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+  align-content: center;
+}
+
+.favorite_no_results {
+  text-align: center;
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.478);
+}
